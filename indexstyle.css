@@ -1,0 +1,123 @@
+* {
+  color: black;
+  padding: 0;
+  margin: 0;
+  font-family: Times New Roman, Georgia, Garamond;}
+
+body {
+  background-color: #233142;
+}
+h1 {
+  font-size: 50px;
+  background-color: #f95959;
+  color: black;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Times New Roman, Georgia, Garamond;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  justify-content: center;
+}
+
+.tabs {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+h3 {
+  background-color: #f95959;
+  text-align: center;
+  padding: 15px 0;
+  cursor: pointer;
+  font-weight: 600;
+}
+.tab-content {
+  background-color: #455d7a;
+  padding: 50px 40px;
+}
+.tab-content h4 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: black;
+  font-weight: 600;
+}
+.tab-content p {
+  font-size:20px;
+  text-align: justify;
+  line-height: 1.9;
+  letter-spacing: 0.4px;
+  color: black;
+}
+.tab-content div {
+  display: none;
+}
+.tab-content .active {
+  display: block;
+}
+.tabs .active {
+  background-color: #be3144;
+  color: #be3144;
+}
+.intro-container {
+  background-color: skyblue;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  column-gap: 5px;
+}  
+
+.link-container {
+  background-color: #233142;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  column-gap: 5px;
+}
+.linkButton {
+  background-color: #455d7a;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: black;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  text-align: center;
+  transition: color 100ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+.button {
+  background-color: #f95959;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: black;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+.button:hover,
+.button:focus {
+  background-color: #be3144;
+}
