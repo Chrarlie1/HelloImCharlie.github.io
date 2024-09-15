@@ -11,7 +11,7 @@ body {
 .eyecatching{
   font-size: 50px;
   background-color: #f95959;
-  color: #222831;
+  color: black;
   text-align: center;
   text-transform: uppercase;
   font-family: Times New Roman, Georgia, Garamond;}
@@ -85,4 +85,64 @@ body {
 .active,
 .demo:hover {
   opacity: 1;
+}
+h1 {
+  with:100%;
+  font-size: 40px;
+  background-color: #f95959;
+  color: black;
+  text-align: center;
+  text-transform: uppercase;
+}
+.link-container {
+  background-color: #233142;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  column-gap: 5px;
+}
+.linkButton {
+  background-color: #455d7a;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: black;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  text-align: center;
+  transition: color 100ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+.button {
+  background-color: #f95959;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: black;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+.button:hover,
+.button:focus {
+  background-color: #be3144;
 }
