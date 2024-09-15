@@ -1,0 +1,100 @@
+*{
+  background-color: #233142;
+  padding 0;
+  margin: 0;
+  font-family: Times New Roman, Georgia, Garamond;
+}
+.hobbydescription{
+  text-indent: 50px;
+  background-color:#455d7a;
+  margin:20px;
+  font-size:20px;
+  padding:15px;
+}
+p{
+  align-items:center;
+  justify-content: left;
+}
+h1 {
+  with:100%;
+  font-size: 50px;
+  background-color: #f95959;
+  color: black;
+  text-align: center;
+  text-transform: uppercase;
+}
+.introduction{
+  text-align:center;
+  height 50px;
+  font-size:20px;
+  padding:15px;
+  margin:0px;
+  background-color:#455d7a;
+}
+img {
+  width;100%;
+  height:auto;
+  border: 1px dotted black;
+  margin: 10px;
+}
+.grid{ 
+  background-color: #233142; 
+  align-items: top center;
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 10px;
+  margin: 10px;
+  
+}
+.link-container {
+  background-color: #233142;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  column-gap: 5px;
+}
+.linkButton {
+  background-color: #455d7a;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: black;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  text-align: center;
+  transition: color 100ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+.button {
+  background-color: #f95959;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: black;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+.button:hover,
+.button:focus {
+  background-color: #be3144;
+}
